@@ -8,8 +8,8 @@ import Pet from "./Pet"
 const Person = ({ name, age, deleteHandler, index }) => {
     return (
         <div>
-            <h1 onClick={() => deleteHandler(index)}>my name is {name} I am {age} years old</h1>
-            {/* <Pet type={type} petName={petName}/> */}
+            <h1>my name is {name} I am {age} years old</h1>
+            <button onClick={() => deleteHandler(index)}>remove</button>
         </div>
     )
 }

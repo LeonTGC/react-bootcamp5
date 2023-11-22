@@ -43,16 +43,20 @@ const App = () => {
       <h2>i have really good sight</h2>
 
       <Form 
-        deleteHandler={deleteHandler}
         handleSubmit={handleSubmit}
         userName={userName}
         userAge={userAge}
         setUserName={setUserName}
         setUserAge={setUserAge}
       />
-
-
-
+      {persons.map((person, index) => {
+        return <Person 
+        name={person.name} 
+        age={person.age}
+        deleteHandler={deleteHandler}
+        index={index}
+        />
+      })}
 
 
 

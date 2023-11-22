@@ -1,21 +1,28 @@
 import { useState } from "react"
 
-const Form = () => {
+const Form = ({
+    handleSubmit,
+    userName,
+    userAge,
+    setUserName,
+    setUserAge }) => {
 
     return (
-        <form onSubmit={handlerSubmit}>
-            <h1>{userInput}</h1>
+        <form onSubmit={handleSubmit}>
+            <h1>{userName}</h1>
             <label>
                 enter your name:
-                <input 
-                    onChange={() =>{} } 
-                    // value={}
-                    type='text' 
+                <input
+                    onChange={(e) => setUserName(e.target.value)}
+                    value={userName}
+                    type='text'
                 />
             </label>
             <label>
-                eneter your age
-                <input 
+                enter your age
+                <input
+                    onChange={(e) => setUserAge(e.target.value)}
+                    value={userAge}
                     type="text"
                 />
             </label>
