@@ -1,0 +1,16 @@
+.border-red {
+    border: solid red 3px;
+}
+.border-blue {
+    border: solid blue 3px;
+    display: flex;
+}
+.border-green {
+    border: solid green 3px;
+}
+img {
+    width: 60%;
+}
+h2 {
+    font-size: 20px;
+}
