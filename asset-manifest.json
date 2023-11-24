@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-bootcamp5/static/css/main.62cb7edf.css",
+    "main.js": "/react-bootcamp5/static/js/main.35b59e00.js",
+    "static/media/football1.jpg": "/react-bootcamp5/static/media/football1.df22d193695e9ade5cdd.jpg",
+    "static/media/football2.jpg": "/react-bootcamp5/static/media/football2.d9b347532c6a77cc9f05.jpg",
+    "index.html": "/react-bootcamp5/index.html",
+    "main.62cb7edf.css.map": "/react-bootcamp5/static/css/main.62cb7edf.css.map",
+    "main.35b59e00.js.map": "/react-bootcamp5/static/js/main.35b59e00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62cb7edf.css",
+    "static/js/main.35b59e00.js"
+  ]
+}
